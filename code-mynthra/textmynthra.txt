@@ -1,0 +1,11 @@
+pipeline {
+agent any
+{
+stage (clone){
+steps github url "
+echo "connected to github account"
+}
+}
+}
+
+
